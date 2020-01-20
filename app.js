@@ -1,5 +1,5 @@
-function favMovie(movie) {
-    console.log(`My favorite movie is ${'The Room'}`);
+function favMovie(movie = 'Gladiator') {
+    console.log(`My favorite movie is ${movie}`);
 }
 
 favMovie();
