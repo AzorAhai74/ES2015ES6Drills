@@ -3,3 +3,13 @@ favMovie = (name, movie) => console.log(`My name is ${name} and my favorite movi
 
 favMovie('Byron', 'Gladiator');
 
+
+getFirstName = name => {
+    console.log(`${name}`);
+}
+
+getFirstName('Byron');
+
+getFirstNameConcise = name => console.log(`${name}`);
+
+getFirstNameConcise('Byron');
