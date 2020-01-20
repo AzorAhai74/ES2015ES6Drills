@@ -4,12 +4,17 @@ favMovie = (name, movie) => console.log(`My name is ${name} and my favorite movi
 favMovie('Byron', 'Gladiator');
 
 
-getFirstName = name => {
-    console.log(`${name}`);
-}
+let myName = 'Byron Baldwin';
+let firstName = myName.split(' ');
 
-getFirstName('Byron');
+let getFirstName = () => {
+console.log(firstName[0])
+};
 
-getFirstNameConcise = name => console.log(`${name}`);
 
-getFirstNameConcise('Byron');
+getFirstName('Byron Baldwin');
+
+
+let getFirstNameConcise = () => console.log(firstName[0]);
+
+getFirstNameConcise('Byron Baldwin');
