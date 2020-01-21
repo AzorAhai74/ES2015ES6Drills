@@ -26,3 +26,11 @@ let getMath = (a,b) => ({
 
 console.log(`product: ${getMath(3,5).product}, power: ${getMath(3,5).power}\n`);
 
+let myProfile = (name, location, favFood) => {
+    console.log(`${name}, ${location}, ${favFood}`)
+};
+
+let array = ['byron', 'birmingham', 'steak' ];
+
+
+myProfile(...array);
