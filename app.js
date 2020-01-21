@@ -18,3 +18,11 @@ getFirstName('Byron Baldwin');
 let getFirstNameConcise = () => console.log(firstName[0]);
 
 getFirstNameConcise('Byron Baldwin');
+
+let getMath = (a,b) => ({
+    product: a * b,
+    power: a ** b
+});
+
+console.log(`product: ${getMath(3,5).product}, power: ${getMath(3,5).power}\n`);
+
