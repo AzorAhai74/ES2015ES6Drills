@@ -34,3 +34,16 @@ let array = ['byron', 'birmingham', 'steak' ];
 
 
 myProfile(...array);
+
+
+function myTitle(manager) {
+    let profession = [...manager];
+    profession.forEach((char) => {
+        console.log(char);
+    });
+}
+
+let byron = 'byron';
+
+myTitle(byron);
+
